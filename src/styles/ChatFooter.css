@@ -1,0 +1,21 @@
+.chat-footer{
+    display:flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center ;
+  }
+  
+  .chat-footer > form {
+    display: flex;
+    flex: 1;
+    padding: 0px 10px 0px 10px;
+  }
+  
+  .chat-footer > form > input{
+    border-radius: 20px;
+    border:none;
+    padding: 10px;
+    outline-width: 0;
+    width:100%;
+    font-size: 15px;
+  }

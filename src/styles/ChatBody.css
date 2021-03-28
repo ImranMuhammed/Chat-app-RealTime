@@ -1,0 +1,36 @@
+.chat-body{
+    display: flex;
+    flex-direction: column;
+    background:url(https://i.ibb.co/q9mygMq/background.jpg);
+    height: 100%;
+    padding: 30px;
+    overflow-y: scroll;
+    position: relative;
+  }
+  
+  .text{
+    width: fit-content;
+    max-width: 60%;
+    height: fit-content;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+  }
+  .text-received{
+    margin-right: auto;
+    background-color: #fff;
+  }
+  .text-sent{
+    margin-left: auto;
+    background-color:  rgb(166, 243, 166);
+  }
+  .text-time{
+    font-size: 10px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .chat-media{
+    height:10rem;
+    width:10rem;
+  }

@@ -1,0 +1,17 @@
+.sidebar-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:12px;
+    border-right: 1px solid lightgray;
+  }
+  
+  .header-rightside-icons{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+
+  .header-rightside-icons  .MuiSvgIcon-root{
+    font-size: 28px;
+  }

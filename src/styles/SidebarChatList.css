@@ -1,0 +1,72 @@
+.sidebar_search_container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(230, 230, 230);
+  padding:10px;
+  border:1px solid lightgray;
+}
+.Sidebar_buttons_container{
+  display: flex;
+  justify-content:space-between;
+}
+
+.sidebar_searchBox{
+  margin:1rem 0;
+ display: flex;
+ align-items: center;
+ border-radius: 20px;
+ width:100%;
+ background-color: white;
+ padding: 10px;
+}
+.sidebar_searchBox > .MuiSvgIcon-root{
+  color:gray;
+}
+
+
+.sidebar_searchBox>input{
+  border: none;
+  outline-width: 0;
+  margin-left: 10px;
+  width: 100%;
+  font-size: 15px;
+}
+
+.sidebarChat_container{
+    display: flex;
+    flex-direction:column;
+    margin-top:20px;
+    position: relative;
+    background-color: white;
+    overflow-y: auto;
+    height: 100%;
+  }
+  .sidebarChat_list{
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    align-items: center; 
+    border-bottom: 0.5px solid  rgb(230, 230, 230);
+  }
+  .sidebarChat_list:hover{
+    background-color: #dadbd3;
+    cursor: pointer;
+  }
+  .sidebarChat_container>a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  .sidebarChat_contact{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;  
+    width: 100%;
+  }
+
+  .sidebarChat_contact:hover{
+    text-decoration: none;
+    color: black;
+  }
+ 
